@@ -12,4 +12,6 @@ export class AppComponent {
     precio: 188
   }
   tasaCambio = 1.07
+  str = "texTO pArA TransFOrMaR"
+  fecha = Date.now()
 }

@@ -1,6 +1,20 @@
 <!-- app.component.html -->
 <div style="text-align:center">
   <h1>
+    Pipes en Angular
+  </h1>
+</div>
+<p>Transformar texto en mayúscula: {{ str | uppercase }}</p>
+<p>Transformar texto en minúscula: {{ str | lowercase }}</p>
+<p>Capitalizar texto: {{ str | titlecase }}</p>
+<p>Sub String generado desde la posición 6: {{ str | slice: 6 }}</p>
+<p>Sub String generado desde la posición 6 hasta la 10: {{ str | slice: 6:10 }}</p>
+<p>Fecha corta: {{ fecha | date: 'shortDate' }}</p>
+<p>Fecha media: {{ fecha | date: 'mediumDate' }}</p>
+<p>Fecha larga: {{ fecha | date: 'longDate' }}</p>
+<p>Fecha completa: {{ fecha | date: 'fullDate' }}</p>
+<div style="text-align:center">
+  <h1>
     Pipes Personalizados en Angular
   </h1>
 </div>
